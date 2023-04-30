@@ -8,7 +8,7 @@ class Intro{
 
 int main() {
     Intro n;// Declaring object
-    n.num = 100;
+    n.num = 100; // Instanciation of class
     cout << n.num << endl;
 
     return 0;
