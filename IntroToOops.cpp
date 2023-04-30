@@ -13,3 +13,22 @@ int main() {
 
     return 0;
 }
+
+
+
+// Concept of empty class
+#include <iostream>
+using namespace std;
+
+class Intro{
+    public:
+    int num;
+};
+
+int main() {
+    Intro n;
+    n.num = 100;
+    cout << n.num << endl;
+
+    return 0;
+}
