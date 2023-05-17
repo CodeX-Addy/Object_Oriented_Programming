@@ -17,6 +17,9 @@ int main() {
     (*b).interest = "DarkAcademia";
     cout << (*b).interest << endl;
     
+    cout << a->age << endl;// Can be accessed with this method also
+    cout << b->interest << endl;
+    
     
     cout << sizeof(Addy) << endl;
     
