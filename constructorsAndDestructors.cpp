@@ -33,6 +33,7 @@ class Addy{
 };
 
 int main() {
-    Addy a;
+    Addy a(20);
+    cout << a << endl;
     return 0;
 }
