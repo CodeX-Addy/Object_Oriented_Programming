@@ -35,5 +35,7 @@ class Addy{
 int main() {
     Addy a(20);
     cout << a << endl;
+    Addy *b = new Addy(20); // Dynamic way of allocation
+    cout << b << endl;
     return 0;
 }
