@@ -16,7 +16,7 @@ int main() {
     return 0;
 }
 
-// Online C++ compiler to run C++ program online
+//Parameterised constructor and the use of "this" keyword
 #include <iostream>
 using namespace std;
 
