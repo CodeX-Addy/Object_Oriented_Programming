@@ -39,3 +39,33 @@ int main() {
     cout << b << endl;
     return 0;
 }
+
+//Copy Constructors
+#include <iostream>
+using namespace std;
+
+class Object{
+    int property;
+    string Identity;
+    
+    //Parameterised constructor
+    public:
+    Object(int property, string Identity){
+        this->property = property;
+        this->Identity = Identity;
+    }
+    
+    void print(){
+        cout << this->property << endl;
+        cout << this->Identity << endl;
+    }
+};
+int main() {
+    Object O(4, "ID");
+    O.print();
+    //Copy constructor
+    Object P(O);
+    P.print();
+
+    return 0;
+}
