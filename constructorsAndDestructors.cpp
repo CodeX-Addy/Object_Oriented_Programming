@@ -71,7 +71,7 @@ int main() {
 }
 
 //Destructors
-// Online C++ compiler to run C++ program online
+
 #include <iostream>
 using namespace std;
 
@@ -87,7 +87,6 @@ class object{
 };
 
 int main() {
-    
     object o;
     object *p = new object;//Dynamic allocation only calls destructors
     return 0;
