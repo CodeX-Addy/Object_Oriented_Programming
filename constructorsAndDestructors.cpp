@@ -74,14 +74,12 @@ int main() {
 
 #include <iostream>
 using namespace std;
-
 class object{
     public:
     object(){
         cout << "Constructor called!" << endl;
     }
-    
-    ~object(){
+     ~object(){
         cout << "Destructor called!" << endl;
     }
 };
