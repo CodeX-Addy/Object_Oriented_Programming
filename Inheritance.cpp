@@ -47,7 +47,7 @@ class Object{
     int func;
 };
 
-class obj : protected Object{
+class obj : protected Object{//It allows to access the attributes only in parent and child class
     public:
     int getfunc(){
         return this->func;
