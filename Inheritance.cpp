@@ -36,3 +36,26 @@ int main() {
 
     return 0;
 }
+
+//Protected access modifier
+#include <iostream>
+using namespace std;
+
+class Object{
+    public:
+    int property;
+    int func;
+};
+
+class obj : protected Object{
+    void setfunc(int f){
+        this->func = f;
+    }
+};
+
+int main() {
+    obj o;
+    setfunc(20);
+
+    return 0;
+}
