@@ -43,19 +43,30 @@ using namespace std;
 
 class Object{
     public:
-    int property;
+    char prop;
     int func;
 };
 
 class obj : protected Object{
-    void setfunc(int f){
-        this->func = f;
+    public:
+    int getfunc(){
+        return this->func;
+    }
+    
+    void setprop(char p){
+        this->prop = p;
+    }
+    
+    char getprop(){
+        return this->prop;
     }
 };
 
 int main() {
     obj o;
-    setfunc(20);
+    cout << o.getfunc() << endl;
+    o.setprop('A');
+    cout << o.getprop() << endl;
 
     return 0;
 }
