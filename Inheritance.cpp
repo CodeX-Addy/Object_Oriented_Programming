@@ -70,3 +70,44 @@ int main() {
 
     return 0;
 }
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+class Human {
+    public:
+    int age;
+    private:
+    int height;
+};
+
+class Male : private Human{
+    public:
+    int weight;
+    
+    //Setter
+    void setweight(int w){
+        this->weight = w;
+    }
+    int getweight(){
+        return this->weight;
+    }
+    
+    void setage(int a){
+        this->age = a;
+    }
+    int getage(){
+        return this->age;
+    }
+};
+
+int main() {
+    Male m1;
+    m1.setweight(50);
+    cout << m1.getweight() << endl;
+    m1.setage(20);
+    cout << m1.getage() << endl;
+
+    return 0;
+}
