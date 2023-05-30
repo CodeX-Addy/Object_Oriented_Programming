@@ -69,10 +69,8 @@ class floatn{
 class Hybrid : public integer, public floatn{
     
 };
-
 int main(){
     Hybrid h1;
     h1.intclass();
     h1.floatclass();
-    
-}
+ }
