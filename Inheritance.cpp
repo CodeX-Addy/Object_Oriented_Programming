@@ -110,4 +110,5 @@ int main() {
 
     return 0;
 }
+//Output: 50 20
 
