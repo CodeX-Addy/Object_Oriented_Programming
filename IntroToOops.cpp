@@ -30,3 +30,16 @@ int main() {
 
     return 0;
 }
+
+//Concept of empty class
+#include <iostream>
+using namespace std;
+
+class name{
+    
+};
+
+int main() {
+    cout << sizeof(name) << endl;
+    return 0;
+}
