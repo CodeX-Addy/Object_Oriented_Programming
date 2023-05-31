@@ -15,8 +15,6 @@ int main() {
 }
 
 
-
-// Concept of empty class
 #include <iostream>
 using namespace std;
 
