@@ -43,3 +43,4 @@ int main() {
     cout << sizeof(name) << endl;
     return 0;
 }
+//Output:- 1
