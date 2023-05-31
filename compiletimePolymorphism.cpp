@@ -40,3 +40,4 @@ int main(){
     obj2.a = 10;
     obj1 + obj2;
 }
+//Output:- 2
