@@ -22,7 +22,6 @@ int main(){
 //Operator overload
 #include<iostream>
 using namespace std;
-
 class A {
     public:
     int a;
@@ -33,7 +32,6 @@ class A {
         cout << val2 - val1;
     }
 };
-
 int main(){
     A obj1, obj2;
     obj1.a = 8;
