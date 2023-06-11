@@ -17,6 +17,6 @@ class B : public A{
 
 int main() {
     B obj;
-    obj.print();
+    obj.print(); // It will print B
     return 0;
 }
