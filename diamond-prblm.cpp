@@ -34,7 +34,4 @@ int main(){
    ///By scope resolution
    p.Teacher::walk();
    p.walk();
-
-
-   
 }
