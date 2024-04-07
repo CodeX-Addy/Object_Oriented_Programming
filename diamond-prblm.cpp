@@ -31,7 +31,7 @@ class Professor : public Teacher, public Researcher{
 
 int main(){
    Professor p;
-   ///By scope resolution
+   ///By scope resolution operator
    p.Teacher::walk();
    p.walk();
 }
