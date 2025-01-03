@@ -5,7 +5,7 @@ class object{
     public:
     static int sizeofObject;
     
-    static int func(){//Static function declaration
+    static int func(){ //Static function declaration
         return sizeofObject;
     }
 };
@@ -17,5 +17,5 @@ int main(){
     object o;
     o.sizeofObject = 20;
     cout << o.sizeofObject << endl;
-    cout << object::func() << endl;//Static function called
+    cout << object::func() << endl; //Static function called
 }
