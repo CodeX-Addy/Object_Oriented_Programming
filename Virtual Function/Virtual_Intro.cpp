@@ -17,7 +17,6 @@ class Sparrow : public Bird{
     }
 };
 
-
 int main(){
     Bird*b = new Sparrow;
     b->fly();
