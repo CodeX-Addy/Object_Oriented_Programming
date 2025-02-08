@@ -19,10 +19,18 @@ class Padding2{
     int c;
 };
 
+// Actual padding concept --> Padding of 7 bytes is added so the size becomes 24 bytes instead of actual expected 17 bytes because the largest data type is double which is 8 bytes
+class Padding3{
+    double a;
+    double b;
+    bool c;
+};
+
 int main()
 {
     cout << sizeof(Empty) << endl; // 1 byte
     cout << sizeof(Padding1) << endl; // 8 bytes
     cout << sizeof(Padding2) << endl; // 12 bytes
+    cout << sizeof(Padding3) << endl; // 24 bytes
     return 0;
 }
