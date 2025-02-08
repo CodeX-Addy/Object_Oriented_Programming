@@ -34,6 +34,14 @@ class Padding4{
     bool d;
 };
 
+class Padding5{
+    string a; //Takes 24 bytes
+    int b;
+    int c;
+    int d;
+    bool e;
+};
+
 int main()
 {
     cout << sizeof(Empty) << endl; // 1 byte
@@ -41,5 +49,6 @@ int main()
     cout << sizeof(Padding2) << endl; // 12 bytes
     cout << sizeof(Padding3) << endl; // 24 bytes
     cout << sizeof(Padding4) << endl; // 24 bytes
+    cout << sizeof(Padding5) << endl; // 48 bytes
     return 0;
 }
