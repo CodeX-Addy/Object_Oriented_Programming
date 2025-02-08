@@ -26,11 +26,20 @@ class Padding3{
     bool c;
 };
 
+// The actual size of class is 8 + 8 + 1 + 1 = 17 bytes, so compiler will now adds 7 bytes of padding to make it 24 bytes which is nearly multiple of largest data type which is 8(double)
+class Padding4{
+    double a;
+    double b;
+    char c;
+    bool d;
+};
+
 int main()
 {
     cout << sizeof(Empty) << endl; // 1 byte
     cout << sizeof(Padding1) << endl; // 8 bytes
     cout << sizeof(Padding2) << endl; // 12 bytes
     cout << sizeof(Padding3) << endl; // 24 bytes
+    cout << sizeof(Padding4) << endl; // 24 bytes
     return 0;
 }
