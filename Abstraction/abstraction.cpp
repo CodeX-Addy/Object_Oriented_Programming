@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 class Abstraction{
   private:
     int a,b;
