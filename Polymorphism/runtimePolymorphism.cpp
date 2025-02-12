@@ -1,22 +1,21 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-class A{
+class Base{
     public:
-    void print(){
-        cout << "A" << endl;
-    }
+        virtual void print(){
+            cout << "Base" << endl;
+        }
 };
 
-class B : public A{
+class Derived:public Base{
     public:
-    void print(){
-        cout << "B" << endl;
-    }
+        void print() override{
+            cout << "Derived" << endl;
+        }
 };
 
-int main() {
-    B obj;
-    obj.print(); // It will print B
-    return 0;
+int main(){
+    Base *b = new Derived();
+    b->print();
 }
