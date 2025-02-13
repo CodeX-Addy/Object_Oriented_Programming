@@ -3,7 +3,7 @@ using namespace std;
 
 class Base{
     public:
-    //Not possible to create virt ctor
+    // Not possible to create virtual constructor
     Base()
     {
         cout << "Base constructor called" << endl;
