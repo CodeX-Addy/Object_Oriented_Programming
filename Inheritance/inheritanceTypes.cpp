@@ -1,4 +1,4 @@
-// Single Inheritance
+/// Single Inheritance
 #include <iostream>
 using namespace std;
 class School {
@@ -110,4 +110,3 @@ int main(){
     o3.func1();
     o3.func3();
 }
-
