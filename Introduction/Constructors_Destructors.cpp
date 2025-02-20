@@ -73,20 +73,20 @@ int main() {
 //Destructors
 #include <iostream>
 using namespace std;
-class object{
+class Object{
     public:
-    object(){
+    Object(){
         cout << "Constructor called!" << endl;
     }
     
-    ~object(){
+    ~Object(){
         cout << "Destructor called!" << endl;
     }
 };
 
 int main() {
-    object o;
-    object *p = new object;
+    Object o;
+    Object *p = new Object;
     delete p;//For manually calling of destructor in case of dynamic allocation
 
     return 0;
