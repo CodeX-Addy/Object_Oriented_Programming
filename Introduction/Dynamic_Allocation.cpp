@@ -7,23 +7,17 @@ class Addy{
     int age;
     string interest;
 };
+
 int main() {
 
     Addy *a = new Addy;
     (*a).age = 20;
-    cout << (*a).age << endl;
-    
+    cout << (*a).age << endl; 
     Addy *b = new Addy;
     (*b).interest = "DarkAcademia";
-    cout << (*b).interest << endl;
-    
+    cout << (*b).interest << endl;  
     cout << a->age << endl;// Can be accessed with this method also
     cout << b->interest << endl;
-    
-    
     cout << sizeof(Addy) << endl;
-    
-    
-
     return 0;
 }
