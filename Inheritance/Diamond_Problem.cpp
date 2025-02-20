@@ -1,13 +1,16 @@
 #include<iostream>
 using namespace std;
 
-class Person{
+class Person
+{
    public:
    void walk(){
       cout << "Walking..\n";
    }
 };
-class Teacher : virtual public Person{
+
+class Teacher : virtual public Person
+{
    public:
    void teach(){
       cout << "Teaching\n";
@@ -22,7 +25,8 @@ public:
    }
 };
 
-class Professor : public Teacher, public Researcher{
+class Professor : public Teacher, public Researcher
+{
    public:
    void lect(){
       cout << "Lecturing..\n";
