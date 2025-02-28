@@ -1,6 +1,7 @@
 /// Single Inheritance
 #include <iostream>
 using namespace std;
+
 class School {
     public:
     string locat;
