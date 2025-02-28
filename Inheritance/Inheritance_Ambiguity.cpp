@@ -1,4 +1,3 @@
-//Inheritance ambiguity
 #include <iostream>
 using namespace std;
 
