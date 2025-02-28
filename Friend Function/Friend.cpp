@@ -1,15 +1,16 @@
 #include<iostream>
 using namespace std;
 
-class A{
+class A
+{
     private:
-    int x;
+        int x;
 
     public:
-    A(int _val):x(_val){}
-
-    int getX() const{return x;}
-    void setX(int _val){x = _val;}
+        A(int _val):x(_val){}
+    
+        int getX() const{return x;}
+        void setX(int _val){x = _val;}
 
     //Better approach
     //void print() const{
@@ -20,13 +21,14 @@ class A{
     friend void print(const A&);
 };
 
-class B{
+class B
+{
     public:
-    void print(const A&a){
-        cout << a.x << endl;
-        //better approach
-        //a.print();
-    }
+        void print(const A&a){
+            cout << a.x << endl;
+            //better approach
+            //a.print();
+        }
 };
 
 void print(const A&a){
