@@ -28,6 +28,6 @@ class Derived : public Base{
 };
 
 int main(){
-    Base*b = new Derived();
+    Base *b = new Derived();
     delete b;
 }
