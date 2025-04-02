@@ -107,8 +107,6 @@ int main() {
     cout << m1.getweight() << endl;
     m1.setage(20);
     cout << m1.getage() << endl;
-
     return 0;
 }
 //Output: 50 20
-
