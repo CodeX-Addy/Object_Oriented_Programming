@@ -42,4 +42,4 @@ int main() {
     cout << sizeof(Name) << endl;
     return 0;
 }
-//Output:- 1
+//Output:- 1 -> Size of an empty class
